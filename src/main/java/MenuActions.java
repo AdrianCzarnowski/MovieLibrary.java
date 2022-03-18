@@ -42,8 +42,9 @@ public class MenuActions {
 
     public void randomMovie(MoviesLiblary moviesLiblary) {
         Movie randomMovie = moviesLiblary.getRandomMovie();
-        System.out.println(PURPLE + BLACK_BACKGROUND + randomMovie.getTitle() + " " + randomMovie.getDirector() + " "
-                + randomMovie.getGenre() + " " + randomMovie.getDate() + " " + randomMovie.getActors() + RESET);
+        System.out.println(PURPLE + BLACK_BACKGROUND + "title : " + randomMovie.getTitle() + "\n" +
+                randomMovie.getDirector() + "\n" + "genre : "
+                + randomMovie.getGenre() + "\n" + "data : " + randomMovie.getDate() + "\n" + randomMovie.getActors() + RESET);
     }
 
     public void actorsMovies(List<Movie> movies) {
