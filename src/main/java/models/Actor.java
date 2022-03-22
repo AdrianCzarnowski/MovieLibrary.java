@@ -1,13 +1,14 @@
-package movies;
+package models;
 
-public class Director {
+public class Actor {
+
     private String firstName;
     private String lastName;
 
-    public Director() {
+    public Actor() {
     }
 
-    public Director(String firstName, String lastName) {
+    public Actor(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
@@ -30,6 +31,6 @@ public class Director {
 
     @Override
     public String toString() {
-        return "director :" + firstName + " " + lastName;
+        return "actor " + firstName + " " + lastName;
     }
 }

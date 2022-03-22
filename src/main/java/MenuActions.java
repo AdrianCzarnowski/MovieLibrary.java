@@ -1,6 +1,6 @@
-import movies.Actor;
-import movies.Movie;
-import movies.MoviesLiblary;
+import models.Actor;
+import models.Movie;
+import models.MoviesLiblary;
 
 import java.util.List;
 import java.util.Random;
